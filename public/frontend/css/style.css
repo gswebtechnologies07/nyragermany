@@ -1,0 +1,4884 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+
+  font-family: 'Montserrat', sans-serif !important;
+  transition: all 0.5s ease;
+
+}
+
+.top-headers .nav-item {
+
+  padding-right: 40px;
+
+}
+
+.top-headers .nav-item .nav-link {
+
+  padding: 0;
+
+}
+
+
+
+.carousel-item {
+
+  transition: transform 2.6s ease-in-out !important;
+
+}
+
+
+
+.carousel-fade .active.carousel-item-start,
+
+.carousel-fade .active.carousel-item-end {
+
+  transition: opacity 0s 2.6s !important;
+
+}
+
+.new-img-map {
+
+  object-fit: cover;
+
+  height: 100%;
+
+  width: 100%;
+
+}
+.home2-hover .img-titles.next{
+  background: white;
+  color: #000;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 20px;
+  left: 0;
+  opacity: 1;
+  z-index: 4;
+  transition: all 0.3s ease;
+}
+.home2-hover:hover .img-titles.next{
+  background: white;
+  color: #000;
+  position: absolute;
+  bottom: -10%;
+  width: 100%;
+  padding: 15px 20px;
+  opacity: 0;
+  left: 0;
+  z-index: 4;
+  transition: all 0.3s ease;
+}
+
+
+
+
+.carousel-caption.left-c {
+
+  top: 22%;
+
+  left: 10% !important;
+
+  text-align: left;
+
+}
+
+.carousel-caption.left-c h5 {
+
+  font-size: 4rem;
+
+  color: #000;
+
+  font-weight: 700;
+
+}
+
+.carousel-caption.left-c.white h5 {
+
+  font-size: 4rem;
+
+  color: #fff;
+
+  font-weight: 700;
+
+}
+
+.carousel-caption.left-c h5 span {
+
+  color: #cb464a ;
+
+}
+
+header {
+
+  top: 0;
+
+}
+
+.bg-acryliam {
+
+  background: url("./images/Acrylic-banner_1946x.jpg");
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  margin-top: 80px;
+  background-position: bottom;
+  padding-top: 86px;
+}
+
+.Icon-ball {
+
+  padding: 10px;
+
+  background: #fff;
+
+  border-radius: 100%;
+
+  width: 50px;
+
+  height: 50px;
+
+  box-shadow: 0px 0px 10px 2px #ecececa1;
+
+  border: 3px solid #9f9f9f;
+
+}
+
+.fea-warraper {
+
+  display: flex;
+
+}
+
+/*.carousel-caption.left-c a{*/
+
+/*    border-radius: 50px;*/
+
+/*padding: 1.28em 2.14em;*/
+
+/*background-color: #cb464a ;*/
+
+/*text-decoration: none;*/
+
+/*font-weight: 500;*/
+
+/*color: #fff;*/
+
+/*margin-top: 24px;*/
+
+/*display: block;*/
+
+/*width: fit-content;*/
+
+/*}*/
+
+.carousel-caption.left-c label {
+
+  line-height: 1.75em;
+
+  margin-bottom: 1em;
+
+  color: #000;
+
+  margin-bottom: 8px;
+
+
+
+}
+
+.carousel-caption.left-c.white label {
+
+  color: #fff;
+
+}
+
+
+
+/* Right */
+
+
+
+.bg-acrylic {
+
+  width: 100%;
+
+  height: 100%;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  background: #b98d37;
+
+  text-decoration: none;
+
+  color: #000;
+
+  font-size: 36px;
+
+  text-align: center;
+
+  font-weight: 500;
+
+  padding: 50px 10px;
+
+}
+
+.bg-acrylic-board {
+
+  width: 100%;
+
+  height: 100%;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  background: #b98d37;
+
+  text-decoration: none;
+
+  color: #000;
+
+  font-size: 36px;
+
+  text-align: center;
+
+  font-weight: 500;
+
+  padding: 50px 10px;
+
+}
+
+
+
+.carousel-caption.right-c {
+
+  top: 22%;
+
+  right: 10% !important;
+
+  text-align: right;
+
+}
+
+.carousel-caption.right-c h5 {
+
+  font-size: 4rem;
+
+  color: #000;
+
+  font-weight: 700;
+
+}
+
+.carousel-caption.right-c.white h5 {
+
+  font-size: 4rem;
+
+  color: #fff;
+
+  font-weight: 700;
+
+}
+
+.carousel-caption.right-c h5 span {
+
+  color: #cb464a ;
+
+}
+
+
+
+.carousel-caption.right-c label {
+
+  line-height: 1.75em;
+
+  margin-bottom: 1em;
+
+  color: #000;
+
+  margin-bottom: 8px;
+
+
+
+}
+
+.carousel-caption.right-c.white label {
+
+  color: #fff;
+
+}
+
+
+
+/* indicator */
+
+.carousel-indicators [data-bs-target] {
+
+  height: 10px;
+
+  width: 10px;
+
+  border-radius: 100%;
+
+  background-color: transparent;
+
+  border: 2px solid lightgray;
+
+  transition: all 0.5s ease;
+
+}
+
+.carousel-indicators .active {
+
+  background-color: #cb464a ;
+
+}
+
+.carousel-indicators [data-bs-target]:hover {
+
+  scale: 1.3;
+
+  background-color: #cb464a ;
+
+  opacity: 1;
+
+
+
+}
+
+
+
+.coustonbtn-slider {
+
+  display: flex;
+
+  position: absolute;
+
+  bottom: 32px;
+
+  justify-content: flex-end;
+
+  width: 100%;
+
+  gap: 5%;
+
+  padding-right: 10%;
+
+}
+
+.coustonbtn-slider .carousel-control-prev,
+
+.coustonbtn-slider .carousel-control-next {
+
+  position: unset;
+
+  width: 40px;
+
+  height: 40px;
+
+  background: #578bb9 ;
+
+  opacity: 1;
+
+  border-radius: 100%;
+
+}
+
+.img-mein-column-1 {
+
+  position: absolute;
+
+  top: 0;
+
+  /* background-image: url(./images/slider-01.jpg); */
+
+  padding: 24px;
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-size: cover;
+
+  transition: all 0.5s ease;
+
+  /* overflow: hidden; */
+
+  /* scale: 1.3; */
+
+
+
+}
+
+.img-mein-column-1:hover {
+
+  background-size: 150%;
+
+
+
+}
+
+.img-mein-column-1 label {
+
+  line-height: 1.75em;
+
+  margin-bottom: 1em;
+
+  color: #000;
+
+  margin-bottom: 8px;
+
+}
+
+.img-mein-column-1 h2 {
+
+  font-size: 2rem;
+
+  color: #000;
+
+  font-weight: 700;
+
+}
+
+.img-mein-column-1 a {
+
+  border-radius: 50px;
+
+  padding: .8rem 2.083rem;
+  ;
+
+  background-color: #cb464a ;
+
+  text-decoration: none;
+
+  font-weight: 600;
+
+  color: #fff;
+
+  margin-top: 24px;
+
+  text-transform: uppercase;
+
+  display: block;
+
+  width: fit-content;
+
+
+
+}
+
+.img-container img {
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+  transition: all 0.5s ease;
+
+}
+
+.img-container {
+
+  height: 100%;
+
+  filter: brightness(0.7);
+
+
+
+}
+
+.wrraper.position-relative {
+
+  width: 100%;
+
+  overflow: hidden;
+
+  /* height: 242px; */
+
+  transition: all 0.5s ease;
+
+}
+
+.wrraper.position-relative:hover .img-container img {
+
+  scale: 1.3;
+
+}
+
+.bg-about.contact {
+
+  margin-top: 5rem !important;
+
+}
+
+
+
+
+
+.left-sect label {
+
+  font-size: 1.17rem;
+
+  margin-bottom: 0.75em;
+
+  line-height: 1.75em;
+
+  font-weight: 400;
+
+  position: relative;
+
+}
+
+.left-sect label:before {
+
+  content: '';
+
+  position: absolute;
+
+  bottom: -10px;
+
+  width: 40px;
+
+  height: 3px;
+
+  border-radius: 2px;
+
+  margin-bottom: 0.25em;
+
+  background-color: #cb464a ;
+
+}
+
+.left-sect h3 {
+
+  position: relative;
+
+  font-size: 4em;
+
+  font-weight: 700;
+
+  color: #000;
+
+  margin-bottom: 24px;
+
+}
+
+.left-sect h3:before {
+
+  content: '';
+
+  position: absolute;
+
+  bottom: -30px;
+
+  width: 100px;
+
+  height: 5px;
+
+  border-radius: 2px;
+
+  margin-bottom: 0.25em;
+
+  background-color: #cb464a ;
+
+}
+
+.left-sect p {
+
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+
+  line-height: 1.75em;
+
+  margin-top: 1em;
+
+  color: inherit !important;
+
+
+
+}
+
+.left-sect a {
+
+  display: block;
+
+  width: fit-content;
+
+  text-decoration: none;
+
+  box-shadow: 0 0 0 3em #9e9889 inset;
+
+  padding: 1rem 2.083em;
+
+  border-radius: 50px;
+
+  color: #fff;
+
+  text-transform: uppercase;
+
+  font-weight: 600;
+
+  transition: all 0.3s ease;
+
+}
+
+.left-sect a:hover {
+
+  webkit-box-shadow: 0 0 0 0 #9e9889 inset;
+
+  box-shadow: 0 0 0 0 #9e9889 inset;
+
+  background-color: #ffff;
+
+  color: #9e9889;
+
+}
+
+
+
+.section-3 {
+
+  background-image: url("../../images/Bg-sec-4.jpg");
+  
+
+}
+
+
+
+
+
+
+
+/*  */
+
+
+
+.progress {
+
+  width: 120px;
+
+  height: 120px;
+
+  line-height: 160px;
+
+  background: none;
+
+  margin: 0 auto;
+
+  box-shadow: none;
+
+  position: relative;
+
+}
+
+.progress:after {
+
+  content: "";
+
+  width: 100%;
+
+  height: 100%;
+
+  border-radius: 50%;
+
+  border: 5px solid #efefef;
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+}
+
+.progress>span {
+
+  width: 50%;
+
+  height: 100%;
+
+  overflow: hidden;
+
+  position: absolute;
+
+  top: 0;
+
+  z-index: 1;
+
+}
+
+.progress .progress-left {
+
+  left: 0;
+
+}
+
+.progress .progress-bar {
+
+  width: 100%;
+
+  height: 100%;
+
+  background: none;
+
+  border-width: 5px;
+
+  border-style: solid;
+
+  position: absolute;
+
+  top: 0;
+
+  border-color: #ffb43e;
+
+}
+
+.progress .progress-left .progress-bar {
+
+  left: 100%;
+
+  border-top-right-radius: 80px;
+
+  border-bottom-right-radius: 80px;
+
+  border-left: 0;
+
+  -webkit-transform-origin: center left;
+
+  transform-origin: center left;
+
+}
+
+.progress .progress-right {
+
+  right: 0;
+
+}
+
+.progress .progress-right .progress-bar {
+
+  left: -100%;
+
+  border-top-left-radius: 80px;
+
+  border-bottom-left-radius: 80px;
+
+  border-right: 0;
+
+  -webkit-transform-origin: center right;
+
+  transform-origin: center right;
+
+}
+
+.progress .progress-value {
+
+  display: flex;
+
+  border-radius: 50%;
+
+  font-size: 1rem;
+
+  text-align: center;
+
+  line-height: 20px;
+
+  align-items: center;
+
+  justify-content: center;
+
+  height: 100%;
+
+  width: 100%;
+
+  font-weight: 300;
+
+}
+
+.progress .progress-value span {
+
+  font-size: 12px;
+
+  text-transform: uppercase;
+
+}
+
+
+
+/* This for loop creates the necessary css animation names 
+
+  Due to the split circle of progress-left and progress right, we must use the animations on each side. 
+
+  */
+
+.progress[data-percentage="1"] .progress-right .progress-bar {
+
+  animation: loading-1 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="1"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="2"] .progress-right .progress-bar {
+
+  animation: loading-2 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="2"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="3"] .progress-right .progress-bar {
+
+  animation: loading-3 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="3"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="4"] .progress-right .progress-bar {
+
+  animation: loading-4 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="4"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="5"] .progress-right .progress-bar {
+
+  animation: loading-5 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="5"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="6"] .progress-right .progress-bar {
+
+  animation: loading-6 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="6"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="7"] .progress-right .progress-bar {
+
+  animation: loading-7 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="7"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="8"] .progress-right .progress-bar {
+
+  animation: loading-8 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="8"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="9"] .progress-right .progress-bar {
+
+  animation: loading-9 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="9"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="10"] .progress-right .progress-bar {
+
+  animation: loading-10 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="10"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="11"] .progress-right .progress-bar {
+
+  animation: loading-11 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="11"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="12"] .progress-right .progress-bar {
+
+  animation: loading-12 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="12"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="13"] .progress-right .progress-bar {
+
+  animation: loading-13 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="13"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="14"] .progress-right .progress-bar {
+
+  animation: loading-14 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="14"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="15"] .progress-right .progress-bar {
+
+  animation: loading-15 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="15"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="16"] .progress-right .progress-bar {
+
+  animation: loading-16 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="16"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="17"] .progress-right .progress-bar {
+
+  animation: loading-17 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="17"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="18"] .progress-right .progress-bar {
+
+  animation: loading-18 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="18"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="19"] .progress-right .progress-bar {
+
+  animation: loading-19 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="19"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="20"] .progress-right .progress-bar {
+
+  animation: loading-20 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="20"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="21"] .progress-right .progress-bar {
+
+  animation: loading-21 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="21"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="22"] .progress-right .progress-bar {
+
+  animation: loading-22 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="22"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="23"] .progress-right .progress-bar {
+
+  animation: loading-23 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="23"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="24"] .progress-right .progress-bar {
+
+  animation: loading-24 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="24"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="25"] .progress-right .progress-bar {
+
+  animation: loading-25 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="25"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="26"] .progress-right .progress-bar {
+
+  animation: loading-26 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="26"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="27"] .progress-right .progress-bar {
+
+  animation: loading-27 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="27"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="28"] .progress-right .progress-bar {
+
+  animation: loading-28 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="28"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="29"] .progress-right .progress-bar {
+
+  animation: loading-29 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="29"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="30"] .progress-right .progress-bar {
+
+  animation: loading-30 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="30"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="31"] .progress-right .progress-bar {
+
+  animation: loading-31 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="31"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="32"] .progress-right .progress-bar {
+
+  animation: loading-32 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="32"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="33"] .progress-right .progress-bar {
+
+  animation: loading-33 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="33"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="34"] .progress-right .progress-bar {
+
+  animation: loading-34 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="34"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="35"] .progress-right .progress-bar {
+
+  animation: loading-35 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="35"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="36"] .progress-right .progress-bar {
+
+  animation: loading-36 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="36"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="37"] .progress-right .progress-bar {
+
+  animation: loading-37 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="37"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="38"] .progress-right .progress-bar {
+
+  animation: loading-38 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="38"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="39"] .progress-right .progress-bar {
+
+  animation: loading-39 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="39"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="40"] .progress-right .progress-bar {
+
+  animation: loading-40 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="40"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="41"] .progress-right .progress-bar {
+
+  animation: loading-41 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="41"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="42"] .progress-right .progress-bar {
+
+  animation: loading-42 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="42"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="43"] .progress-right .progress-bar {
+
+  animation: loading-43 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="43"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="44"] .progress-right .progress-bar {
+
+  animation: loading-44 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="44"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="45"] .progress-right .progress-bar {
+
+  animation: loading-45 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="45"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="46"] .progress-right .progress-bar {
+
+  animation: loading-46 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="46"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="47"] .progress-right .progress-bar {
+
+  animation: loading-47 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="47"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="48"] .progress-right .progress-bar {
+
+  animation: loading-48 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="48"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="49"] .progress-right .progress-bar {
+
+  animation: loading-49 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="49"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="50"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="50"] .progress-left .progress-bar {
+
+  animation: 0;
+
+}
+
+
+
+.progress[data-percentage="51"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="51"] .progress-left .progress-bar {
+
+  animation: loading-1 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="52"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="52"] .progress-left .progress-bar {
+
+  animation: loading-2 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="53"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="53"] .progress-left .progress-bar {
+
+  animation: loading-3 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="54"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="54"] .progress-left .progress-bar {
+
+  animation: loading-4 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="55"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="55"] .progress-left .progress-bar {
+
+  animation: loading-5 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="56"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="56"] .progress-left .progress-bar {
+
+  animation: loading-6 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="57"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="57"] .progress-left .progress-bar {
+
+  animation: loading-7 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="58"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="58"] .progress-left .progress-bar {
+
+  animation: loading-8 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="59"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="59"] .progress-left .progress-bar {
+
+  animation: loading-9 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="60"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="60"] .progress-left .progress-bar {
+
+  animation: loading-10 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="61"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="61"] .progress-left .progress-bar {
+
+  animation: loading-11 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="62"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="62"] .progress-left .progress-bar {
+
+  animation: loading-12 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="63"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="63"] .progress-left .progress-bar {
+
+  animation: loading-13 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="64"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="64"] .progress-left .progress-bar {
+
+  animation: loading-14 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="65"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="65"] .progress-left .progress-bar {
+
+  animation: loading-15 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="66"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="66"] .progress-left .progress-bar {
+
+  animation: loading-16 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="67"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="67"] .progress-left .progress-bar {
+
+  animation: loading-17 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="68"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="68"] .progress-left .progress-bar {
+
+  animation: loading-18 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="69"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="69"] .progress-left .progress-bar {
+
+  animation: loading-19 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="70"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="70"] .progress-left .progress-bar {
+
+  animation: loading-20 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="71"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="71"] .progress-left .progress-bar {
+
+  animation: loading-21 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="72"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="72"] .progress-left .progress-bar {
+
+  animation: loading-22 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="73"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="73"] .progress-left .progress-bar {
+
+  animation: loading-23 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="74"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="74"] .progress-left .progress-bar {
+
+  animation: loading-24 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="75"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="75"] .progress-left .progress-bar {
+
+  animation: loading-25 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="76"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="76"] .progress-left .progress-bar {
+
+  animation: loading-26 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="77"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="77"] .progress-left .progress-bar {
+
+  animation: loading-27 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="78"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="78"] .progress-left .progress-bar {
+
+  animation: loading-28 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="79"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="79"] .progress-left .progress-bar {
+
+  animation: loading-29 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="80"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="80"] .progress-left .progress-bar {
+
+  animation: loading-30 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="81"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="81"] .progress-left .progress-bar {
+
+  animation: loading-31 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="82"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="82"] .progress-left .progress-bar {
+
+  animation: loading-32 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="83"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="83"] .progress-left .progress-bar {
+
+  animation: loading-33 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="84"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="84"] .progress-left .progress-bar {
+
+  animation: loading-34 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="85"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="85"] .progress-left .progress-bar {
+
+  animation: loading-35 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="86"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="86"] .progress-left .progress-bar {
+
+  animation: loading-36 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="87"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="87"] .progress-left .progress-bar {
+
+  animation: loading-37 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="88"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="88"] .progress-left .progress-bar {
+
+  animation: loading-38 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="89"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="89"] .progress-left .progress-bar {
+
+  animation: loading-39 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="90"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="90"] .progress-left .progress-bar {
+
+  animation: loading-40 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="91"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="91"] .progress-left .progress-bar {
+
+  animation: loading-41 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="92"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="92"] .progress-left .progress-bar {
+
+  animation: loading-42 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="93"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="93"] .progress-left .progress-bar {
+
+  animation: loading-43 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="94"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="94"] .progress-left .progress-bar {
+
+  animation: loading-44 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="95"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="95"] .progress-left .progress-bar {
+
+  animation: loading-45 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="96"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="96"] .progress-left .progress-bar {
+
+  animation: loading-46 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="97"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="97"] .progress-left .progress-bar {
+
+  animation: loading-47 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="98"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="98"] .progress-left .progress-bar {
+
+  animation: loading-48 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="99"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="99"] .progress-left .progress-bar {
+
+  animation: loading-49 0.5s linear forwards 0.5s;
+
+}
+
+
+
+.progress[data-percentage="100"] .progress-right .progress-bar {
+
+  animation: loading-50 0.5s linear forwards;
+
+}
+
+.progress[data-percentage="100"] .progress-left .progress-bar {
+
+  animation: loading-50 0.5s linear forwards 0.5s;
+
+}
+
+
+
+@keyframes loading-1 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(3.6);
+
+    transform: rotate(3.6deg);
+
+  }
+
+}
+
+@keyframes loading-2 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(7.2);
+
+    transform: rotate(7.2deg);
+
+  }
+
+}
+
+@keyframes loading-3 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(10.8);
+
+    transform: rotate(10.8deg);
+
+  }
+
+}
+
+@keyframes loading-4 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(14.4);
+
+    transform: rotate(14.4deg);
+
+  }
+
+}
+
+@keyframes loading-5 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(18);
+
+    transform: rotate(18deg);
+
+  }
+
+}
+
+@keyframes loading-6 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(21.6);
+
+    transform: rotate(21.6deg);
+
+  }
+
+}
+
+@keyframes loading-7 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(25.2);
+
+    transform: rotate(25.2deg);
+
+  }
+
+}
+
+@keyframes loading-8 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(28.8);
+
+    transform: rotate(28.8deg);
+
+  }
+
+}
+
+@keyframes loading-9 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(32.4);
+
+    transform: rotate(32.4deg);
+
+  }
+
+}
+
+@keyframes loading-10 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(36);
+
+    transform: rotate(36deg);
+
+  }
+
+}
+
+@keyframes loading-11 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(39.6);
+
+    transform: rotate(39.6deg);
+
+  }
+
+}
+
+@keyframes loading-12 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(43.2);
+
+    transform: rotate(43.2deg);
+
+  }
+
+}
+
+@keyframes loading-13 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(46.8);
+
+    transform: rotate(46.8deg);
+
+  }
+
+}
+
+@keyframes loading-14 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(50.4);
+
+    transform: rotate(50.4deg);
+
+  }
+
+}
+
+@keyframes loading-15 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(54);
+
+    transform: rotate(54deg);
+
+  }
+
+}
+
+@keyframes loading-16 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(57.6);
+
+    transform: rotate(57.6deg);
+
+  }
+
+}
+
+@keyframes loading-17 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(61.2);
+
+    transform: rotate(61.2deg);
+
+  }
+
+}
+
+@keyframes loading-18 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(64.8);
+
+    transform: rotate(64.8deg);
+
+  }
+
+}
+
+@keyframes loading-19 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(68.4);
+
+    transform: rotate(68.4deg);
+
+  }
+
+}
+
+@keyframes loading-20 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(72);
+
+    transform: rotate(72deg);
+
+  }
+
+}
+
+@keyframes loading-21 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(75.6);
+
+    transform: rotate(75.6deg);
+
+  }
+
+}
+
+@keyframes loading-22 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(79.2);
+
+    transform: rotate(79.2deg);
+
+  }
+
+}
+
+@keyframes loading-23 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(82.8);
+
+    transform: rotate(82.8deg);
+
+  }
+
+}
+
+@keyframes loading-24 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(86.4);
+
+    transform: rotate(86.4deg);
+
+  }
+
+}
+
+@keyframes loading-25 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(90);
+
+    transform: rotate(90deg);
+
+  }
+
+}
+
+@keyframes loading-26 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(93.6);
+
+    transform: rotate(93.6deg);
+
+  }
+
+}
+
+@keyframes loading-27 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(97.2);
+
+    transform: rotate(97.2deg);
+
+  }
+
+}
+
+@keyframes loading-28 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(100.8);
+
+    transform: rotate(100.8deg);
+
+  }
+
+}
+
+@keyframes loading-29 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(104.4);
+
+    transform: rotate(104.4deg);
+
+  }
+
+}
+
+@keyframes loading-30 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(108);
+
+    transform: rotate(108deg);
+
+  }
+
+}
+
+@keyframes loading-31 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(111.6);
+
+    transform: rotate(111.6deg);
+
+  }
+
+}
+
+@keyframes loading-32 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(115.2);
+
+    transform: rotate(115.2deg);
+
+  }
+
+}
+
+@keyframes loading-33 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(118.8);
+
+    transform: rotate(118.8deg);
+
+  }
+
+}
+
+@keyframes loading-34 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(122.4);
+
+    transform: rotate(122.4deg);
+
+  }
+
+}
+
+@keyframes loading-35 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(126);
+
+    transform: rotate(126deg);
+
+  }
+
+}
+
+@keyframes loading-36 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(129.6);
+
+    transform: rotate(129.6deg);
+
+  }
+
+}
+
+@keyframes loading-37 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(133.2);
+
+    transform: rotate(133.2deg);
+
+  }
+
+}
+
+@keyframes loading-38 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(136.8);
+
+    transform: rotate(136.8deg);
+
+  }
+
+}
+
+@keyframes loading-39 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(140.4);
+
+    transform: rotate(140.4deg);
+
+  }
+
+}
+
+@keyframes loading-40 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(144);
+
+    transform: rotate(144deg);
+
+  }
+
+}
+
+@keyframes loading-41 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(147.6);
+
+    transform: rotate(147.6deg);
+
+  }
+
+}
+
+@keyframes loading-42 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(151.2);
+
+    transform: rotate(151.2deg);
+
+  }
+
+}
+
+@keyframes loading-43 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(154.8);
+
+    transform: rotate(154.8deg);
+
+  }
+
+}
+
+@keyframes loading-44 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(158.4);
+
+    transform: rotate(158.4deg);
+
+  }
+
+}
+
+@keyframes loading-45 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(162);
+
+    transform: rotate(162deg);
+
+  }
+
+}
+
+@keyframes loading-46 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(165.6);
+
+    transform: rotate(165.6deg);
+
+  }
+
+}
+
+@keyframes loading-47 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(169.2);
+
+    transform: rotate(169.2deg);
+
+  }
+
+}
+
+@keyframes loading-48 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(172.8);
+
+    transform: rotate(172.8deg);
+
+  }
+
+}
+
+@keyframes loading-49 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(176.4);
+
+    transform: rotate(176.4deg);
+
+  }
+
+}
+
+@keyframes loading-50 {
+
+  0% {
+
+    -webkit-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    -webkit-transform: rotate(180);
+
+    transform: rotate(180deg);
+
+  }
+
+}
+
+
+
+
+
+.progress-wraper label {
+
+  font-size: 0.8rem;
+
+}
+
+.progress-wraper h4 {
+
+  font-size: 1.33rem;
+
+  font-weight: 800;
+
+}
+
+.icon-card img {
+
+  min-width: 207px;
+
+  opacity: 0.5;
+
+}
+
+.icon-card label {
+
+  font-size: 0.8rem;
+
+}
+
+.icon-card h4 {
+
+  font-size: 1.33rem;
+
+  font-weight: 700;
+
+  color: #cb464a ;
+
+}
+
+.Our-services h4 {
+
+  font-size: 2.66em;
+
+  font-weight: 600;
+
+}
+
+.Our-servicesc p {
+
+  font-size: 1em;
+
+}
+
+
+
+.Our-services a {
+
+  display: block;
+
+  width: fit-content;
+
+  text-decoration: none;
+
+  box-shadow: 0 0 0 3em #cb464a  inset;
+
+  padding: 1rem 2.083em;
+
+  border-radius: 50px;
+
+  color: #fff;
+
+  text-transform: uppercase;
+
+  font-weight: 600;
+
+  transition: all 0.3s ease;
+
+}
+
+.Our-services a:hover {
+
+  webkit-box-shadow: 0 0 0 0 #cb464a  inset;
+
+  box-shadow: 0 0 0 0 #cb464a  inset;
+
+  background-color: #ffff;
+
+  color: #cb464a ;
+
+}
+
+
+
+.section-4 {
+
+  z-index: 4;
+
+  position: relative;
+
+  background-position: 100%;
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  /* background-image: url(https://www.thekarighars.com/wp-content/uploads/2022/09/DS_08485-HDR.jpg); */
+  /*background-image: url(https://www.homelane.com/blog/wp-content/uploads/2021/07/membrane-kitchen-cabinets.jpg);*/
+  background-image: url("../../images/membrane-kitchen-cabinets.jpg");
+}
+
+.section-4.home-two {
+
+  z-index: 4;
+
+  position: relative;
+
+  background-position: 100%;
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  /*background-image: url(https://images.pexels.com/photos/6284229/pexels-photo-6284229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);*/
+   background-image: url(https://www.homelane.com/blog/wp-content/uploads/2021/07/membrane-kitchen-cabinets.jpg) !important; 
+
+}
+
+.section-4.home-two::before {
+
+  content: '';
+
+  width: 100%;
+
+  height: 100%;
+
+  background-color: #000;
+
+  opacity: .3;
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  z-index: -1;
+
+}
+
+.section-4::before {
+
+  content: '';
+
+  width: 100%;
+
+  height: 100%;
+
+  background-color: #000;
+
+  opacity: .2;
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  z-index: -1;
+
+}
+
+
+
+.pry-lable {
+
+  font-size: 1.5rem;
+
+  font-weight: 500;
+
+}
+
+label {
+
+  font-size: 1.17rem;
+
+  font-weight: 500;
+
+}
+
+label.underLine {
+
+  position: relative;
+
+}
+
+label.underLine::before {
+
+  content: '';
+
+  position: absolute;
+
+  bottom: -10px;
+
+  width: 40px;
+
+  height: 3px;
+
+  border-radius: 2px;
+
+  margin-bottom: 0.25em;
+
+  background-color: #cb464a ;
+
+}
+
+
+
+.h2-heading {
+
+  font-size: 4rem;
+
+  font-weight: 700;
+
+
+
+}
+
+.h2-heading.underLine {
+
+  position: relative;
+
+  padding-bottom: 25px;
+
+}
+
+.h2-heading.underLine::before {
+
+  content: '';
+
+  position: absolute;
+
+  bottom: -10px;
+
+  width: 100px;
+
+  height: 5px;
+
+  border-radius: 2px;
+
+  margin-bottom: 0.25em;
+
+  background-color: #578bb9 ;
+
+}
+
+.comon-p {
+
+  font-size: 1.5rem;
+
+}
+
+.pry-btn {
+
+  display: block;
+
+  width: fit-content;
+
+  text-decoration: none;
+
+  box-shadow: 0 0 0 3em  #578bb9  inset;
+
+  padding: 1rem 2.083em;
+
+  border-radius: 50px;
+
+  color: #fff;
+
+  text-transform: uppercase;
+
+  font-weight: 600;
+
+  transition: all 0.3s ease;
+
+}
+
+.pry-btn:hover {
+
+  webkit-box-shadow: 0 0 0 0 #578bb9  inset;
+
+  box-shadow: 0 0 0 0 #578bb9  inset;
+
+  background-color: #ffff;
+
+  color: #578bb9 ;
+
+}
+
+.Thinline {
+
+  font-size: 1.33em;
+
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+
+  font-weight: bold;
+
+}
+
+.Thinline::before {
+
+  content: '';
+
+  position: absolute;
+
+  bottom: -10px;
+
+  width: 100px;
+
+  height: 5px;
+
+  border-radius: 2px;
+
+  margin-bottom: 0.25em;
+
+  background-color: #cb464a ;
+
+}
+
+.Thinline {
+
+  position: relative;
+
+  padding-bottom: 9px;
+
+  margin-bottom: 10px;
+
+}
+
+.normal-body p {
+
+  font-size: .877em;
+
+  line-height: 1.615;
+
+}
+
+.section-5 {
+
+  background-color: #b6b2a7;
+
+}
+
+.img-mein-column-1.Founder {
+
+  top: 0%;
+
+}
+
+.p-text-6 {
+
+  font-size: 16px;
+
+}
+
+.Socail-link a i {
+
+  font-size: 30px;
+
+}
+
+.footer-link .nav-item .nav-link {
+
+  text-transform: uppercase;
+
+}
+
+.bg-conatact {
+
+  background-color: #578bb9 ;
+
+}
+
+.bg-about {
+  background-image: url(./images/bg-heading-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5rem !important;
+}
+
+.input-common label {
+
+  font-size: 16px;
+
+  margin-bottom: 8px;
+
+}
+
+.input-common input,
+
+.input-common textarea {
+
+  width: 100%;
+
+  height: 46px;
+
+  padding: 10px 20px;
+
+  border: 1px solid #f7f7f7;
+
+  border-radius: 100px;
+
+  resize: none;
+
+}
+
+.input-common textarea {
+
+  height: 100px;
+
+  border-radius: 20px;
+
+}
+
+.input-common input:focus,
+
+.input-common textarea:focus {
+
+  border: 1px solid #000;
+
+}
+
+.hide-show .product-img {
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+  visibility: visible;
+
+  opacity: 1;
+
+  transition: all 0.75s cubic-bezier(.71, 0, .33, 1.56) 0ms;
+
+  transform: translateX(0%);
+
+  filter: blur(0px);
+
+  position: relative;
+
+}
+
+.hide-show:hover .product-img {
+
+  visibility: hidden;
+
+  opacity: 0;
+
+  transform: translateX(200%);
+
+  filter: blur(50px);
+
+  position: absolute;
+
+
+
+  left: 0;
+
+}
+
+.hide-show:hover .color-img {
+
+  visibility: visible;
+
+  opacity: 1;
+
+  transform: translateX(0%);
+
+  filter: blur(0px);
+
+  position: relative;
+
+}
+
+.hide-show .color-img {
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+  visibility: hidden;
+
+  opacity: 0;
+
+  transform: translateX(200%);
+
+  transition: all 0.75s cubic-bezier(.71, 0, .33, 1.56) 0ms;
+
+  filter: blur(50px);
+
+  position: absolute;
+
+  left: 0;
+
+}
+
+.hide-show {
+
+  width: 100%;
+
+  height: 600px;
+
+  display: flex;
+
+  overflow: hidden;
+
+  position: relative;
+
+}
+
+.swiper {
+
+  width: 100%;
+
+  height: 500px;
+
+}
+
+.swiper.home2 {
+
+  width: 100%;
+
+  height: 420px;
+
+}
+
+.mein-card-container .card {
+
+  min-height: 88%;
+
+  /*width:100%;*/
+
+}
+
+.mein-card-container .card.home2 {
+
+  min-height: auto !important;
+
+  /*width:100%;*/
+
+}
+
+.pry-btn {
+
+  z-index: 99;
+
+}
+
+.card-body.sliderCard h4 {
+
+  font-size: 1.3rem;
+
+}
+
+.card-body.sliderCard p {
+
+  font-size: 0.9rem;
+
+}
+
+.buttons {
+
+  display: flex;
+
+  justify-content: space-between;
+
+
+
+}
+
+.buttons .btn-buy {
+
+  width: 50%;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 5px 10px;
+
+  background-color: #cb464a ;
+
+  border-radius: 0;
+
+  color: #fff;
+
+  text-decoration: none;
+
+  text-transform: uppercase;
+
+  white-space: nowrap;
+
+  font-size: 14px;
+
+  font-weight: 500;
+
+}
+
+.buttons .btn-cart {
+
+  width: 50%;
+
+  font-weight: 500;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 5px 10px;
+
+  background-color: #4b4b4b;
+
+  border-radius: 0;
+
+  color: #fff;
+
+  text-decoration: none;
+
+  text-transform: uppercase;
+
+  white-space: nowrap;
+
+  font-size: 14px;
+
+}
+
+.mein-card-container .buttons .btn-buy,
+
+.mein-card-container .buttons .btn-cart {
+
+  visibility: hidden;
+
+  opacity: 0;
+
+  height: 0px;
+
+  transition: all 0.5s cubic-bezier(.71, 0, .33, 1.56) 0ms;
+
+  filter: blur(50px);
+
+}
+
+.mein-card-container:hover .buttons .btn-buy,
+
+.mein-card-container:hover .buttons .btn-cart {
+
+  visibility: visible;
+
+  opacity: 1;
+
+  height: 50px;
+
+  filter: blur(0px);
+
+
+
+}
+
+.pagination-points {
+
+  bottom: 30px !important;
+
+  display: none !important;
+
+}
+
+.costum-width {
+
+  width: 100%;
+
+  height: 180px;
+
+}
+
+.costum-width.home2 {
+
+  width: 100%;
+
+  height: 400px !important;
+
+}
+
+
+
+.costum-width img {
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+}
+
+.card .hide-show {
+
+  position: relative;
+
+}
+
+.card .hide-show .product-img {
+
+  visibility: visible;
+
+  opacity: 1;
+
+  transition: all 0.75s cubic-bezier(.71, 0, .33, 1.56) 0ms;
+
+  transform: translateX(0%);
+
+  filter: blur(0px);
+
+  position: relative;
+
+}
+
+.card:hover .hide-show .product-img {
+
+  visibility: hidden;
+
+  opacity: 0;
+
+  transform: translateX(200%);
+
+  filter: blur(50px);
+
+  position: absolute;
+
+  left: 0;
+
+}
+
+.card:hover .hide-show .color-img {
+
+  visibility: visible;
+
+  opacity: 1;
+
+  transform: translateX(0%);
+
+  filter: blur(0px);
+
+  position: relative;
+
+}
+
+.card .hide-show .color-img {
+
+  visibility: hidden;
+
+  opacity: 0;
+
+  transform: translateX(200%);
+
+  transition: all 0.75s cubic-bezier(.71, 0, .33, 1.56) 0ms;
+
+  filter: blur(50px);
+
+  position: absolute;
+
+  left: 0;
+
+}
+
+.card .hide-show {
+
+  display: flex;
+
+  overflow: hidden;
+
+}
+
+
+
+/* On Add to cart */
+
+.buttons {
+
+  display: none;
+
+}
+
+.bg-body-home {
+
+  background-color: #cb464a ;
+
+}
+
+
+
+.product-cards {
+
+  transition: all 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.product-cards:hover {
+
+  transform: translateY(-10px);
+
+}
+
+
+
+.hide-show.product {
+
+  height: 255px;
+
+}
+
+.houver0headingwrraper {
+
+  position: relative;
+
+  transition: all 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.product-cards .houver0headingwrraper .card-heding-1 {
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  opacity: 1;
+
+  visibility: visible;
+
+  filter: blur(0px);
+
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.product-cards .houver0headingwrraper .card-heding-2 {
+
+  opacity: 0;
+
+  visibility: hidden;
+
+  transform: translateY(10%);
+
+  filter: blur(50px);
+
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.product-cards:hover .houver0headingwrraper .card-heding-2 {
+
+  opacity: 1;
+
+  visibility: visible;
+
+  transform: translateY(0);
+
+  filter: blur(0px);
+
+}
+
+.product-cards:hover .houver0headingwrraper .card-heding-1 {
+
+  top: 0;
+
+  left: 0;
+
+  opacity: 0;
+
+  visibility: hidden;
+
+  transform: translateY(-50px);
+
+  filter: blur(0px);
+
+
+
+}
+
+.div-img .small-img {
+
+  width: 25%;
+
+  height: 100px;
+
+}
+
+
+
+.div-img .small-img {
+
+  margin-top: 24px;
+
+}
+
+.div-img .small-img:hover {
+
+  border: 2px solid #cb464a ;
+
+  cursor: pointer;
+
+
+
+}
+
+.div-img .small-img img {
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: contain;
+
+}
+
+.home2-hover::before {
+
+  content: '';
+
+  width: 100%;
+
+  height: 0%;
+
+  background:  #578bb9 ;
+
+  position: absolute;
+
+  bottom: 0;
+
+  left: 0;
+
+  opacity: 0.4;
+
+  transition: all 0.3s ease;
+
+  transform-origin: bottom;
+
+  z-index: 2;
+
+}
+
+.home2-hover:hover::before {
+
+  content: '';
+
+  width: 100%;
+
+  height: 100%;
+
+  background: #578bb9 ;
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  opacity: 0.4;
+
+
+
+}
+
+.home2-hover {
+
+  overflow: hidden;
+
+
+
+}
+
+.home2-hover img {
+
+  transition: all 0.3s ease;
+
+}
+
+.home2-hover:hover img {
+
+  transform: scale(1.1);
+
+}
+
+.home2-hover .img-title {
+
+  background: white;
+
+  color: #000;
+
+  position: absolute;
+
+  bottom: -43px;
+
+  opacity: 0;
+
+  /*transform: skewY(351deg);*/
+
+  padding: 15px 20px;
+
+  left: 10%;
+
+  z-index: 4;
+
+  transition: all 0.3s ease;
+
+}
+
+.home2-hover:hover .img-title {
+
+  background: white;
+
+  color: #000;
+
+  opacity: 1;
+
+  position: absolute;
+
+  bottom: 43px;
+
+  /*transform: skewY(351deg);*/
+
+  padding: 15px 20px;
+
+  left: 10%;
+
+  z-index: 4;
+
+}
+
+
+
+.img-resize {
+
+  height: 600px !important;
+
+  object-fit: cover;
+
+}
+
+.mainHeader {
+
+  z-index: 999;
+
+}
+
+
+
+
+
+
+
+.flip-card {
+
+  background-color: transparent;
+
+  width: 100%;
+
+  /*height: 300px;*/
+
+  perspective: 1000px;
+
+}
+
+
+
+.flip-card-inner {
+
+  position: relative;
+
+  width: 100%;
+
+  height: 100%;
+
+  text-align: center;
+
+  transition: transform 0.8s;
+
+  transform-style: preserve-3d;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.Hover-Board.back {
+
+  position: absolute;
+
+  top: 0;
+
+  width: 100%;
+
+}
+
+.flip-card-back .Hover-Board.back p {
+
+  color: #281b80 !important;
+
+}
+
+.flip-card:hover .flip-card-inner {
+
+  transform: rotateY(-180deg);
+
+}
+
+
+
+.flip-card-front,
+.flip-card-back {
+
+  position: absolute;
+
+  width: 100%;
+
+  height: 100%;
+
+  -webkit-backface-visibility: hidden;
+
+  backface-visibility: hidden;
+
+}
+
+
+
+.flip-card-front {
+
+  background-color: #a7d5d5;
+
+  color: black;
+
+  width: 100%;
+
+  /*height: 400px;*/
+
+}
+
+
+
+.flip-card-back {
+
+  background-color: #2980b9;
+
+  /*color: white;*/
+
+  transform: rotateY(-180deg);
+
+}
+
+
+
+
+
+
+
+/**/
+
+
+
+body {
+
+  font-family: sans-serif;
+
+}
+
+
+
+.bookWrapper {
+
+  margin: auto;
+
+  width: 100%;
+
+  height: 500px;
+
+}
+
+
+
+.bookBg {
+
+  position: relative;
+
+  /*background-color: #000;*/
+
+  width: 100%;
+
+  height: 100%;
+
+  border-radius: 10px;
+
+}
+
+.front-book {
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+}
+
+
+
+.pageBg {
+
+  position: absolute;
+
+  left: 50%;
+
+  top: 50%;
+
+  /*background-color: #999;*/
+
+  width: calc(100% - 20px);
+
+  height: calc(100% - 20px);
+
+  border-radius: 0px;
+
+}
+
+
+
+.pageWrapper {
+
+  position: absolute;
+
+  width: 50%;
+
+  height: 100%;
+
+  float: left;
+
+  -webkit-font-smoothing: antialiased;
+
+}
+
+
+
+.page {
+
+  position: absolute;
+
+  width: 100%;
+
+  height: 100%;
+
+}
+
+
+
+.pageFace {
+
+  position: absolute;
+
+  top: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  overflow: hidden;
+
+  text-align: center;
+
+}
+
+
+
+.front {
+
+  background: linear-gradient(to right, #d9d9d9 0%, #f9f9f9 3%, #ffffff 8%, #ffffff 100%);
+
+}
+
+
+
+.back {
+
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 92%, #f9f9f9 97%, #d9d9d9 100%);
+
+}
+
+.pageFace.front {
+
+  background: #8e9e84;
+
+}
+
+.pageFace.front.last {
+
+  background: #fff;
+
+}
+
+.pageFoldRight {
+
+  position: absolute;
+
+  width: 0px;
+
+  height: 0px;
+
+  top: 0;
+
+  right: 0;
+
+  border-left-width: 1px;
+
+  border-left-color: #DDDDDD;
+
+  border-left-style: solid;
+
+  border-bottom-width: 1px;
+
+  border-bottom-color: #DDDDDD;
+
+  border-bottom-style: solid;
+
+  box-shadow: -5px 5px 10px #dddddd;
+
+}
+
+
+
+.pageFoldLeft {
+
+  position: absolute;
+
+  width: 0px;
+
+  height: 0px;
+
+  top: 0;
+
+  left: 0;
+
+  border-right-width: 1px;
+
+  border-right-color: #DDDDDD;
+
+  border-right-style: solid;
+
+  border-bottom-width: 1px;
+
+  border-bottom-color: #DDDDDD;
+
+  border-bottom-style: solid;
+
+  box-shadow: 5px 5px 10px #dddddd;
+
+}
+
+
+
+/* Flip Book*/
+
+
+
+.Color-BOX {
+
+  width: 100%;
+
+  height: 70px;
+
+}
+
+.Color-BOX.KA1010 {
+
+  background: #a9cac1;
+
+}
+
+.KA1001 {
+
+  background: #8e9e84;
+
+}
+
+.KA102 {
+
+  background: #b7c2c6;
+
+}
+
+.KA1006 {
+
+  background: #b48e79;
+
+}
+
+.KA1011 {
+
+  background: #5e5558;
+
+}
+
+.KA1014 {
+
+  background: #b9b2ba;
+
+}
+
+.KA1019 {
+
+  background: #a38678;
+
+}
+
+.KA1022 {
+
+  background: #fbe8d9;
+
+}
+
+.KA1012 {
+
+  background: #fefefe;
+
+  border: 1px solid #f7f7f7;
+
+}
+
+.KA1013 {
+
+  background: #fbe8d9;
+
+}
+
+.KA1015 {
+
+  background: #212320;
+
+}
+
+.KA1017 {
+
+  background: #fbe8d9;
+
+}
+
+.KA1018 {
+
+  background: #fefefe;
+
+  border: 1px solid #f7f7f7;
+
+}
+
+.KA1009 {
+
+  background: #70282b;
+
+}
+
+.KA1016 {
+
+  background: #435e89;
+
+}
+
+.KA1021 {
+
+  background: #c19564;
+
+}
+
+.KA1032 {
+
+  background: #91746c;
+
+}
+
+.KA5001 {
+
+  background: #99573d;
+
+}
+
+.KA5004 {
+
+  background: #b98d37;
+
+}
+
+@media (max-width: 768px) {
+
+  .h2-heading {
+
+    font-size: 2rem;
+
+  }
+
+  .left-sect h3 {
+
+    font-size: 2rem;
+
+  }
+
+  .carousel-caption.left-c,
+
+  .carousel-caption.right-c,
+
+  .carousel-caption.left-c.white {
+
+    top: 0;
+
+  }
+
+  .carousel-caption.left-c label,
+
+  .carousel-caption.right-c label,
+
+  .carousel-caption.left-c.white label {
+
+    font-size: 10px;
+
+  }
+
+  .carousel-caption.left-c h5,
+
+  .carousel-caption.right-c h5,
+
+  .carousel-caption.left-c.white h5 {
+
+    font-size: 1rem;
+
+  }
+
+  .img-mein-column-1 label {
+
+    font-size: 14px;
+
+  }
+
+  .img-mein-column-1 h2 {
+
+    font-size: 18px;
+
+  }
+
+  .img-mein-column-1 a,
+
+  .pry-btn {
+
+    padding: 5px 10px;
+
+    font-size: 14px;
+
+  }
+
+  .carousel-item img {
+
+    height: 214px;
+
+    object-fit: cover;
+
+
+
+  }
+
+  .coustonbtn-slider .carousel-control-prev,
+  .coustonbtn-slider .carousel-control-next {
+
+    position: unset;
+
+    width: 33px;
+
+    padding: 6px;
+
+    height: 34px;
+
+    background: #578bb9 ;
+
+    opacity: 1;
+
+    border-radius: 100%;
+
+  }
+
+  .hide-show {
+
+    width: 100%;
+
+    height: 266px;
+
+    display: flex;
+
+    overflow: hidden;
+
+    position: relative;
+
+  }
+
+  .h2-heading.underLine {
+
+    font-size: 2rem;
+
+  }
+
+  .top-headers,
+  .Socail-link {
+
+    justify-content: center !important;
+
+
+
+  }
+
+  .top-headers {
+
+    gap: 16px;
+
+  }
+
+  .top-headers .nav-item {
+
+    padding: 0;
+
+  }
+
+}
+
+
+
+@media (max-width:550px) {
+
+  .img-resize {
+
+    height: 400px !important;
+
+  }
+
+}
+/* 
+height: 0;
+    overflow: hidden;
+    height: 100vh;
+    transition: all 0.5s ease;
+    animation: slider 0.7s ease;
+} */

@@ -1,0 +1,5 @@
+[15-May-2023 06:45:07 UTC] PHP Fatal error:  Cannot use App\Models\Enroll as Enroll because the name is already in use in /home1/pccleaning/public_html/global_truck_academy/app/Http/Controllers/EnrollController.php on line 10
+[15-May-2023 09:27:29 UTC] PHP Fatal error:  Cannot use Mail as Mail because the name is already in use in /home1/pccleaning/public_html/global_truck_academy/app/Http/Controllers/EnrollController.php on line 12
+[16-May-2023 04:58:07 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\EnrollController::add_enroll() in /home1/pccleaning/public_html/global_truck_academy/app/Http/Controllers/EnrollController.php on line 63
+[16-May-2023 04:58:33 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\EnrollController::add_enroll() in /home1/pccleaning/public_html/global_truck_academy/app/Http/Controllers/EnrollController.php on line 63
+[30-Oct-2023 04:48:00 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\admin\AboutController::section_one_edit() in /home/demogswebtech/public_html/nyrainterior/app/Http/Controllers/admin/AboutController.php on line 77
